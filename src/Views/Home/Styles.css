@@ -1,0 +1,43 @@
+#home{
+    position: relative;
+    display: flex;
+    justify-content: left;
+}
+#video {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.content {
+    position: fixed;
+    width: 400px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+}
+
+@media(max-width:940px){
+    #home{
+        display: flex;
+        justify-content: center;
+    }
+    .content {
+        position: absolute;
+        width: 70%;
+        max-width: 500px;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        padding: 20px;
+    }   
+}
+
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
